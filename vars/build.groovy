@@ -1,5 +1,5 @@
 def call() {
-  sh 'javac Hello.java' 
-  sh 'java Hello'
+  bat 'javac Hello.java' 
+  bat 'java Hello'
   echo "Build is successful"
 }
