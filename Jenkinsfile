@@ -1,6 +1,4 @@
-@Library('shared-lib-assign4') 
-
-@Library("shared-library") _
+@Library("shared-lib-assign4") _
 pipeline {
     agent any 
         stages {
